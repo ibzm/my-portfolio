@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+import { NextConfig } from 'next';
+
+const config: NextConfig = {
+  webpack: (config, { isServer }) => {
+
+    return config;
+  },
   output: 'export', 
   basePath: '/my-portfolio',
   assetPrefix: '/my-portfolio/',
 };
+
+export default config;
