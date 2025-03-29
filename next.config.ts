@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  basePath: '/my-portfolio',
   output: 'export', 
+  basePath: '/my-portfolio',
+  assetPrefix: '/my-portfolio/',
 };
