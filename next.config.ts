@@ -5,8 +5,6 @@ const nextConfig: NextConfig = {
     return config;
   },
   output: "export",
-  basePath: "/my-portfolio",
-  assetPrefix: "/my-portfolio/",
   trailingSlash: true,
 };
 
