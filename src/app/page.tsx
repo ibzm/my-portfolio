@@ -13,7 +13,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center mb-6">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ProjectCard
-            title="Portfolio Website"
+            title="Portfolio Website does this also upload when i deploy"
             description="A personal portfolio showcasing my skills, projects, and experience."
             techStack="Next.js, Tailwind CSS"
             link="https://github.com/ibzm/my-portfolio"
