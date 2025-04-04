@@ -1,13 +1,19 @@
-import type { NextConfig } from "next";
+import path from 'path';
 
-const nextConfig: NextConfig = {
-  webpack: (config: any, { isServer }: { isServer: boolean }) => {
-    return config;
-  },
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   output: "export",
   trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/my-portfolio' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/my-portfolio/' : '',
+
+
+  images: { unoptimized: true },
+  webpack(config: any) {  
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@': path.resolve(__dirname, 'src'), 
+    };
+    return config;
+  },
 };
 
 export default nextConfig;

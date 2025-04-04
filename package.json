@@ -1,5 +1,6 @@
 {
   "name": "my-portfolio",
+  "homepage": "https://ibzm.github.io/my-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +11,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/font": "^14.2.15",
     "lightningcss": "^1.29.3",
     "next": "15.2.4",
     "react": "^19.0.0",
