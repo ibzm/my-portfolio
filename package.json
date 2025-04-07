@@ -9,14 +9,12 @@
     "static": "npm run build && npm run export && touch ./out/.nojekyll",
     "deploy": "npm run static && gh-pages -d out -t true",
     "start": "next start",
-  "lint": "next lint"
-}
-,
+    "lint": "next lint"
+  },
   "dependencies": {
-    "lightningcss": "^1.29.3",
-    "next": "15.2.4",
+    "next": "^15.2.4",
     "react": "^18.2.0",
-"react-dom": "^18.2.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
