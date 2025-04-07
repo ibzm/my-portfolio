@@ -1,14 +1,14 @@
 import React from "react";
 
 // components/Projectcard.tsx
-interface ProjectcardProps {
+interface ProjectCardProps {
     title: string;
     description: string;
     techStack: string;
     link: string;
   }
   
-  const Projectcard = ({ title, description, techStack, link }: ProjectcardProps) => {
+  const ProjectCard = ({ title, description, techStack, link }: ProjectCardProps) => {
     return (
       <div className="bg-white shadow-md rounded-lg p-6">
         <h3 className="text-2xl font-bold">{title}</h3>
@@ -19,5 +19,5 @@ interface ProjectcardProps {
     );
   };
   
-  export default Projectcard;
+  export default ProjectCard;
   
