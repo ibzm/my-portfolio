@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "@/context/ThemeContext";
 
 import { Geist, Geist_Mono } from "next/font/google";
-import "../styles/global.css";
+import "../app/styles/global.css";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import Navbar from "@/app/components/Navbar";
