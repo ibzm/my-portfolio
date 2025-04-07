@@ -1,6 +1,6 @@
-// app/projects/page.tsx or components/Projects.tsx
+
 import React from 'react';
-import ProjectCard from '../components/ProjectCard'; // Adjust the import path as necessary
+import ProjectCard from '../components/ProjectCard'; 
 
 const Projects = () => {
   return (
