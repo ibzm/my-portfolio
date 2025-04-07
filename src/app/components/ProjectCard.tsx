@@ -1,12 +1,12 @@
-// components/ProjectCard.tsx
-interface ProjectCardProps {
+// components/Projectcard.tsx
+interface ProjectcardProps {
     title: string;
     description: string;
     techStack: string;
     link: string;
   }
   
-  const ProjectCard = ({ title, description, techStack, link }: ProjectCardProps) => {
+  const Projectcard = ({ title, description, techStack, link }: ProjectcardProps) => {
     return (
       <div className="bg-white shadow-md rounded-lg p-6">
         <h3 className="text-2xl font-bold">{title}</h3>
@@ -17,5 +17,5 @@ interface ProjectCardProps {
     );
   };
   
-  export default ProjectCard;
+  export default Projectcard;
   
