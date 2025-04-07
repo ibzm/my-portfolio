@@ -1,3 +1,5 @@
+import React from "react";
+
 // components/Hero.tsx
 const Hero = () => {
     return (

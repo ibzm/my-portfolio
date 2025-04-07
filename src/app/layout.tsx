@@ -3,20 +3,16 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "@/context/ThemeContext";
 
 import { Geist, Geist_Mono } from "next/font/google";
-<<<<<<< Updated upstream
-import "./styles/global.css"; 
-import Header from '../app/components/Header'; 
-import Footer from '../app/components/Footer'; 
-import Navbar from '../app/components/Navbar'; 
-=======
 import "./styles/global.css";
 import Header from "@/app/components/Header";
+
 import Footer from "@/app/components/Footer";
 import Navbar from "@/app/components/Navbar";
+import React from "react";
+
 
 // Import your context provider
 
->>>>>>> Stashed changes
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

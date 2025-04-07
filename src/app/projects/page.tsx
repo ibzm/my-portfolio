@@ -1,12 +1,5 @@
-<<<<<<< Updated upstream
 // app/projects/page.tsx or components/Projects.tsx
 import ProjectCard from '../components/ProjectCard'; // Adjust the import path as necessary
-=======
-"use client"; 
-
-import React from 'react';
-import Projectcard from "@/app/components/ProjectCard";
->>>>>>> Stashed changes
 
 const Projects = () => {
   return (

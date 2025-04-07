@@ -1,3 +1,5 @@
+import React from "react";
+
 // components/Projectcard.tsx
 interface ProjectcardProps {
     title: string;
